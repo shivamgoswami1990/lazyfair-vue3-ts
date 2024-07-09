@@ -1,0 +1,1 @@
+export type ValidationErrorMessage = (value: unknown) => string;

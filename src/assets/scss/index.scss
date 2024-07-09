@@ -1,0 +1,81 @@
+@use 'sass:map';
+@use 'vuetify' with (
+    $body-font-family: 'EB Garamond',
+    $utilities: (
+        // Display utilities
+        'overflow': false,
+        'overflow-x': false,
+        'float': false,
+        'float-ltr': false,
+        'float-rtl': false,
+
+        // Gap utilities
+        'gap': false,
+        'gap-row': false,
+        'gap-column': false,
+
+        // Margin utilities
+        'margin-start': false,
+        'margin-end': false,
+        'negative-margin-bottom': false,
+        'negative-margin-end': false,
+        'negative-margin-left': false,
+        'negative-margin-right': false,
+        'negative-margin-start': false,
+        'negative-margin-top': false,
+        'negative-margin-x': false,
+        'negative-margin-y': false,
+        'negative-margin': false,
+
+        // Padding utilities
+        'padding-start': false,
+        'padding-end': false,
+
+        // Border radius
+        'rounded-top': false,
+        'rounded-end': false,
+        'rounded-bottom': false,
+        'rounded-start': false,
+        'rounded-top-start': false,
+        'rounded-top-end': false,
+        'rounded-bottom-end': false,
+        'rounded-bottom-start': false,
+
+        // Border
+        'border': false,
+        'border-opacity': false,
+        'border-top': false,
+        'border-end': false,
+        'border-bottom': false,
+        'border-start': false,
+        'border-style': false,
+
+        // Text
+        'white-space': false,
+        'opacity': false,
+        'text-opacity': false,
+        'text-overflow': false,
+        'font-italic': false,
+        'text-mono': false,
+
+        // Position
+        'position': false,
+        'top': false,
+        'right': false,
+        'bottom': false,
+        'left': false,
+    )
+);
+@use 'vuetify/settings';
+
+/* eb-garamond-latin-400-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff2) format('woff2'), url(@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@import "home";
