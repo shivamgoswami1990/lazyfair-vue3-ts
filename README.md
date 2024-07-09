@@ -20,8 +20,8 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### SSH to cloud server
 
 ```sh
-npm run lint
+sudo ssh -i lazyfair-vue.pem ubuntu@52.65.228.90
 ```
